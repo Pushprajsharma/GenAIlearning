@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Document Qualification</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .navbar {
+            width: 100%;
+            background-color: #D9EAFD;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 0;
+        }
+
+        .navbar h1 {
+            margin: 0;
+            font-size: 20px;
+            color: #1B1833;
+        }
+
+        .sidebar {
+            width: max-content;
+            background-color: #D9EAFD;
+            padding: 20px;
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+        }
+
+        .sidebar a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: #1B1833;
+            margin-bottom: 10px;
+        }
+
+        .sidebar a:hover {
+            background-color: #BCCCDC;
+            z-index: 1;
+        }
+
+        .content {
+            width: 80%;
+            padding: 20px;
+            margin-left: 18%;
+        }
+
+        .highlight {
+            background-color: yellow;
+        }
+
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+            margin-top: 20px;
+        }
+
+        #result {
+            margin-top: 10px;
+        }
+
+        td{
+            font-size: 12px;
+        }
+
+        th{
+            font-size: 14px;
+        }
+
+        h3{
+            font-size: 16px;
+        }
+
+        .menuHeading{
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <h1 style="text-align: center;"></h1>
+    </div>
+    <div class="sidebar">
+        <p class="menuHeading">Menu</p>
+        <a href="#" onclick="showSection('performance')">Performance Qualification</a>
+        <a href="#" onclick="showSection('installation')">Installation Qualification</a>
+        <a href="#" onclick="showSection('operational')">Operational Qualification</a>
+    </div>
+    <div class="content">
+        <div id="performance" class="section">
+            <h1>Performance Qualification</h1>
+            <div class="input-group mb-5">
+                <input  type="file" class="form-control" id="fileInput">
+                <button class="btn btn-primary" id="extract" onclick="uploadFile()">Extract</button>
+            </div>
+            <div id="result"></div>
+            <button class="btn btn-primary" id="Export">Export to Word</button>
+        </div>
+        <div id="installation" class="section" style="display:none;">
+            <h1>Installation Qualification</h1>
+            <!-- Add content for Installation Qualification here -->
+        </div>
+        <div id="operational" class="section" style="display:none;">
+            <h1>Operational Qualification</h1>
+            <!-- Add content for Operational Qualification here -->
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+2025-02-14 13:03:36.649932 | User has chosen Audio File as source
+2025-02-14 13:03:36.659247 | Initializing Speech Recognition engine from Audio File
+2025-02-14 13:03:39.209466 | Valid File Found C:/GenAI/GenAIlearning/SpeechToText/test.wav
+2025-02-14 13:03:39.214068 | Recognizing Audio from file
+2025-02-14 13:03:39.261249 | Could not request results for audio chunk at offset 0
+2025-02-14 13:04:30.449454 | User has chosen Audio File as source
+2025-02-14 13:04:30.457051 | Initializing Speech Recognition engine from Audio File
+2025-02-14 13:04:32.818608 | Valid File Found C:/GenAI/GenAIlearning/SpeechToText/test.wav
+2025-02-14 13:04:32.822574 | Recognizing Audio from file
+2025-02-14 13:04:32.827511 | Exception in creating text from audio: Recognizer.recognize_assemblyai() missing 1 required positional argument: 'api_token'
+2025-02-14 13:05:38.226474 | User has chosen Audio File as source
+2025-02-14 13:05:38.238703 | Initializing Speech Recognition engine from Audio File
+2025-02-14 13:05:40.726048 | Valid File Found C:/GenAI/GenAIlearning/SpeechToText/test.wav
+2025-02-14 13:05:40.733123 | Recognizing Audio from file
+2025-02-14 13:05:40.746243 | Exception in creating text from audio: Recognizer.recognize_lex() missing 3 required positional arguments: 'bot_name', 'bot_alias', and 'user_id'
+2025-02-14 13:06:21.713789 | User has chosen Audio File as source
+2025-02-14 13:06:21.725416 | Initializing Speech Recognition engine from Audio File
+2025-02-14 13:06:23.818825 | Valid File Found C:/GenAI/GenAIlearning/SpeechToText/test.wav
+2025-02-14 13:06:23.824909 | Recognizing Audio from file
+2025-02-14 13:06:27.239175 | Could not understand audio chunk at offset 0
+2025-02-14 13:06:44.025993 | User has chosen Audio File as source
+2025-02-14 13:06:44.038306 | Initializing Speech Recognition engine from Audio File
+2025-02-14 13:06:46.147359 | Valid File Found C:/GenAI/GenAIlearning/SpeechToText/test.wav
+2025-02-14 13:06:46.155143 | Recognizing Audio from file
+2025-02-14 13:19:23.804005 | User has chosen Audio File as source
+2025-02-14 13:19:23.810290 | Initializing Speech Recognition engine from Audio File
+2025-02-14 13:19:26.082352 | Valid File Found C:/GenAI/GenAIlearning/SpeechToText/test.wav
+2025-02-14 13:19:26.090053 | Recognizing Audio from file
+2025-02-14 13:19:26.384699 | Exception in creating text from audio: (MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /facebook/wav2vec2-base-960h/resolve/main/preprocessor_config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))"), '(Request ID: 569b22df-f9d8-46fc-98ef-afb18348c6a2)')
+2025-02-14 13:19:26.596247 | Exception in creating text from audio: (MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /facebook/wav2vec2-base-960h/resolve/main/preprocessor_config.json (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1018)')))"), '(Request ID: 2fcb43e2-df5e-4027-aa43-9a14be388c78)')
+2025-02-14 13:23:47.327102 | Getting text from text area
+2025-02-14 13:23:47.338007 | Text From text Area : Hello My name is Pushpraj. This assignment is created as part of my assignment 1 in Generative AI domain. I have joined Infosys on 13 january 2025 as an Associate Consultant. My hometown is Pipariya Madhyapradesh. I am 25 years old
+2025-02-14 13:23:47.348415 | Initializing Text to Speech Engine
+2025-02-14 13:23:47.867214 | Text to Speech Converted Successfully
+2025-02-14 13:23:47.868184 | Audio File Saved Successfully
+2025-02-14 13:24:09.022095 | User has chosen Audio File as source
+2025-02-14 13:24:09.024412 | Initializing Speech Recognition engine from Audio File
+2025-02-14 13:24:11.099559 | Valid File Found C:/GenAI/GenAIlearning/SpeechToText/test.wav
+2025-02-14 13:24:11.100989 | Recognizing Audio from file
+2025-02-14 13:25:02.781798 | User has chosen Audio File as source
+2025-02-14 13:25:02.784167 | Initializing Speech Recognition engine from Audio File
+2025-02-14 13:25:04.802671 | Valid File Found C:/GenAI/GenAIlearning/SpeechToText/test.wav
+2025-02-14 13:25:04.804192 | Recognizing Audio from file
+2025-02-14 13:25:51.941396 | User has chosen Audio File as source
+2025-02-14 13:25:51.943042 | Initializing Speech Recognition engine from Audio File
+2025-02-14 13:25:54.239746 | Valid File Found C:/GenAI/GenAIlearning/SpeechToText/test.wav
+2025-02-14 13:25:54.240923 | Recognizing Audio from file
+2025-02-17 14:40:47.337399 | User has chosen Audio File as source
+2025-02-17 14:40:47.346483 | Initializing Speech Recognition engine from Audio File
+2025-02-17 15:18:10.051447 | Getting text from text area
+2025-02-17 15:18:10.062492 | Text From text Area : Hello My name is Pushpraj
+2025-02-17 15:18:10.068546 | Initializing Text to Speech Engine
+2025-02-17 15:18:10.658127 | Text to Speech Converted Successfully
+2025-02-17 15:18:10.659024 | Audio File Saved Successfully
+2025-02-17 15:18:19.839102 | User has chosen Audio File as source
+2025-02-17 17:08:23.868026 | User has chosen Audio File as source
+2025-02-18 13:01:10.299523 | User has chosen Audio File as source
+2025-02-18 13:02:12.681220 | User has chosen Audio File as source
+2025-02-18 13:02:37.288875 | User has chosen Audio File as source
+2025-02-18 17:30:14.953728 | User has chosen Audio File as source
+2025-02-18 17:30:14.966987 | Initializing Speech Recognition engine from Audio File
+2025-02-18 17:30:19.625798 | Valid File Found C:/GenAI/GenAIlearning/SpeechToText/test.wav
+2025-02-18 17:30:19.640882 | Recognizing Audio from file
+2025-02-21 18:31:06.711917 | User has chosen Microphone as source
+2025-02-21 18:31:06.726074 | Initializing Speech Recognition engine for Microphone
+2025-02-21 18:31:06.742592 | Using Microphone as source
+2025-02-21 18:31:10.794506 | Listening Audio from Microphone
+2025-02-21 18:31:14.428978 | Converting Audio to Text
+2025-02-21 18:31:27.141625 | Could not request results
+2025-02-21 18:31:27.413902 | Getting text from text area
+2025-02-21 18:31:27.429611 | Text From text Area : Hello how are you tarang?
+2025-02-21 18:31:27.445247 | Initializing Text to Speech Engine
+2025-02-21 18:31:39.721042 | Text to Speech Converted Successfully
+2025-02-21 18:31:39.722972 | Audio File Saved Successfully
+2025-02-21 18:31:42.905522 | Getting text from text area
+2025-02-21 18:31:42.914693 | Text From text Area : Hello how are you tarang?
+2025-02-21 18:31:42.916468 | Initializing Text to Speech Engine
+2025-02-21 18:31:43.050227 | Text to Speech Converted Successfully
+2025-02-21 18:31:43.052277 | Audio File Saved Successfully
+2025-02-21 18:33:56.619765 | User has chosen to upload text file
+2025-02-21 18:34:03.870219 | Valid File Found C:/Users/pushpraj.sharma/Downloads/TextFile.txt
+2025-02-21 18:34:04.088385 | Text to Speech Converted Successfully using File
+2025-02-21 18:35:38.255586 | User has chosen to upload text file
+2025-02-21 18:35:43.893086 | Valid File Found C:/Users/pushpraj.sharma/Downloads/Demo2.txt
+2025-02-21 18:35:44.736026 | Text to Speech Converted Successfully using File
